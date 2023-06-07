@@ -4,7 +4,7 @@ public class Calculator {
 
     }
 
-    // add 44
+    // return true if the String is a valid input (not parentheses check)
     public boolean notValid(String arithInput){
         int largo = arithInput.length();
         for(int i=0; i<40; i++){
